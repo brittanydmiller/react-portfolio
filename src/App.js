@@ -1,26 +1,29 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Profile from './Profile';
+import ProjectList from './ProjectList';
+import { projects } from './projects';
+import Filters from './Filters';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+const App = () => {
+	return (
+		<div>
+			<header>
+		    <div class="offset">
+		      <h1><a href="index.html">Brittany D. Miller</a></h1>
+		      <p class="clear" id="tagline">Sr. Software Engineer in San Francisco, CA.</p>
+		    </div>
+		  </header>
+		  <Profile />
+			<Filters />
+			<ProjectList projects={projects} />
+			<footer class="clear">
+		    <div class="offset">
+		      <p id="copyright">&copy; Copyright <span id="year">2019</span> Brittany D. Miller</p>
+		    </div>
+		  </footer>
+		  <script type="text/javascript" src="js/main.js"></script>
+		</div>
+	);
 }
 
 export default App;
