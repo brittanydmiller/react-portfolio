@@ -25,7 +25,7 @@ const ProjectList = ({projects}) => {
 	})
 	return (
 	  <section id="portfolio">
-	    <div class="container clear">
+	    <div className="container clear">
 				{projectComponent}
 			</div>
 		</section>
