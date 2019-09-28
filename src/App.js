@@ -4,42 +4,13 @@ import ProjectList from './ProjectList';
 import { projects } from './projects';
 import Filters from './Filters';
 
-// function importAll(r) {
-//   let images = {};
-//   r.keys().forEach((record, i) => { images[record.replace('./', '')] = r(record); });
-//   return images;
-// }
-
-// const images = importAll(require.context('./images/', false, /\.(png|jpe?g|svg)$/));
-
-
-///////
-
-export const images  = {};
-
-function importAll (r) {
-  return r.keys().forEach(r);
+function importAll(r) {
+  let images = {};
+  r.keys().forEach((record, i) => { images[record.replace('./', '')] = r(record); });
+  return images;
 }
 
-importAll(require.context('./images/', false, /\.(png|jpe?g|svg)$/));
-
-///////
-
-
-// function importAll(r) {
-//   return r.keys().map(r);
-// }
-
-// const images = importAll(require.context('./', false, /\.(png|jpe?g|svg)$/));
-
-// const project_images = { {projects}.forEach(({id, thumbsrc}) => <img key={id} src={thumbsrc} />) }
-
-// debugger 
-
-// { images.map(({id, src, title, description}) => <img key={id} src={src} title={title} alt={description} />)
-
-console.log("App")
-// console.log({images})
+const images = importAll(require.context('./images/', false, /\.(png|jpe?g|svg|gif)$/));
 
 const App = () => {
 	return (

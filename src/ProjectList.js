@@ -2,7 +2,7 @@ import React from 'react';
 import Project from './Project';
 
 
-const ProjectList = ({projects}) => {
+const ProjectList = ({projects, images}) => {
 	
 	const projectComponent = projects.map((record, i) => {
 		if (record.active) {

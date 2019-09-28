@@ -1,13 +1,14 @@
 import React from 'react';
-import britt from './images/britt_scarf_filt_200.jpg';
+// import britt from './images/britt_scarf_filt_200.jpg';
 import github from './css/github.png';
 import linkedin from './css/linkedin.png';
 
-const Profile = () => {
+
+const Profile = (images) => {
 	return(
 	  <div id="about-me">
 	    <div className="offset clear">
-	      <img id="portrait" src={britt} alt="Brittany Miller portrait" width="200px" height="200px" />
+	      <img id="portrait" src={images['britt_scarf_filt_200.jpg']} alt="Brittany Miller portrait" width="200px" height="200px" />
 	      <h2>About</h2>
 	      <p>Why am I passionate about technology? It provides a constant supply of interesting new problems to solve and stories to tell. It's the opportunity to stand with one foot in the creative and one in the technical -- a chance to work with the most inspiring people.</p>
 	      <p>Before I discovered my love for development, I worked in many different aspects of small business, doing purchasing, admin, inside sales, marketing, graphics, copy editing, documentation, and events. My experience has brought me into many industries, including professional audio/video, theater, travel, music, health care software, and higher education software.</p>
