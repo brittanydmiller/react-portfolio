@@ -3,24 +3,25 @@ import Project from './Project';
 
 
 const ProjectList = ({projects, images, css_images}) => {
-		const projectComponent = projects.map((record, i) => {
+	const projectComponent = projects.map((record, i) => {
 		if (record.active) {
 			return ( 
 				<Project
-					image={images[projects[i].thumbsrc]}
+					image={images[record.thumbsrc]}
+          css_images={css_images}
 					key={i}
-					id={projects[i].id}
-					classes={projects[i].classes}
-					thumblink={projects[i].thumblink}
-					thumbsrc={projects[i].thumbsrc}
-					thumbalt={projects[i].thumbalt}
-					thumbtitle={projects[i].thumbtitle}
-					namelink={projects[i].namelink}
-					name={projects[i].name}
-					lightbox={projects[i].lightbox}
-					descr={projects[i].descr}
-					tech={projects[i].tech}
-					active={projects[i].active}
+					id={record.id}
+					classes={record.classes}
+					thumblink={record.thumblink}
+					thumbsrc={record.thumbsrc}
+					thumbalt={record.thumbalt}
+					thumbtitle={record.thumbtitle}
+					namelink={record.namelink}
+					name={record.name}
+					lightbox={record.lightbox}
+					descr={record.descr}
+					techs={record.techs}
+					active={record.active}
 				/>
 			);
 		}

@@ -1,7 +1,7 @@
 import React from 'react';
+import TechList from './TechList';
 
-
-const Project = ({image, id, classes, thumblink, thumbsrc, thumbalt, thumbtitle, namelink, name, lightbox, descr, tech, active }) => {
+const Project = ({css_images, image, id, classes, thumblink, thumbsrc, thumbalt, thumbtitle, namelink, name, lightbox, descr, techs, active }) => {
   return (
     <div id={id} className={`item displayed bg-lightest-blue dib br3 pa3 ma2 grow bw2 shadow-5 ${classes} `}>
       <div className="offset">
@@ -11,8 +11,7 @@ const Project = ({image, id, classes, thumblink, thumbsrc, thumbalt, thumbtitle,
         <div className="caption">
           <a href={namelink} rel="lightbox noreferrer nooopener">{name}</a>
           <p className="descrip">{descr}</p>
-          <ul className="technologies">{tech}
-          </ul>
+          <TechList techs={techs} css_images={css_images} />
         </div>
       </div>
     </div>

@@ -12,7 +12,7 @@ export const projects = [
     namelink: "https://zomb.herokuapp.com/demo",
     lightbox: false,
     descr: <span>Web app that manages a tag/scavenger-hunt/capture-the-flag game you play in real life using geolocation. Team lead. App design, schema design, Ruby on Rails, JavaScript, jQuery, HTML/CSS, logo design. With Maggy Hillen, Carolyn Atterbury and Andrew Fruth. <a href='https://github.com/brittanydmiller/zombify'>View code on GitHub.</a></span>,
-    tech: 'rails, js, heroku, Html, Css, Postgresql',
+    techs: ['rails', 'js', 'heroku', 'html', 'css', 'postgresql'],
     active: true
   },
   {
@@ -25,7 +25,7 @@ export const projects = [
     name: 'Z Systems, inc.',
     namelink: "https://www.zsyst.com", 
     descr: <span>Website design with Wordpress and HTML/CSS, logo design, graphics, content production and copy editing. (Now copy is created/maintained by the client.)</span>,
-    tech: 'wordpress, html, css, photoshop',
+    techs: ['wordpress', 'html', 'css', 'photoshop'],
     active: true
   },
   {
@@ -39,7 +39,7 @@ export const projects = [
     namelink: "https://spencermcgillicutty.com",
     lightbox: false,
     descr: <span>Website design with Wordpress and HTML/CSS, logo design, graphics, content production and copy editing. (Album art by Matt Shoobe. Illustrations by Katey Harvey.) </span>,
-    tech: 'wordpress, html, css, photoshop',
+    techs: ['wordpress', 'html', 'css', 'photoshop'],
     active: true
   },
   {
@@ -53,7 +53,7 @@ export const projects = [
     namelink: "",
     lightbox: true,
     descr: <span>Various sets I've helped construct or dress. <i>The Foreigner</i> and <i>Museum</i> at The College of Saint Benedict. A music video shoot for Spencer McGillicutty.</span>,
-    tech: '',
+    techs: [],
     active: true
   },
   {
@@ -66,7 +66,7 @@ export const projects = [
     namelink: "",
     lightbox: true,
     descr: <span>Company brochure for Z Systems, inc. Graphics, layout, content production and copy editing. See PDF <a href='portfolio/ZSystems-2012.pdf' target='_blank' title='Company Brochure for Z Systems, inc. Graphics, layout, content production and copy editing'>here</a>.</span>,
-    tech: 'photoshop, indesign',
+    techs: ['photoshop', 'indesign'],
     active: true
   },
   {
@@ -79,7 +79,7 @@ export const projects = [
     namelink: '',
     lightbox: true,
     descr: <span>Music album. Vocals and some harmony arrangement. Graphic design and copy editing for disc and album art. Production manager for mastering and album printing. Staining/aging envelopes before printing. Assembling disc packages by hand.</span>,
-    tech: 'photoshop',
+    techs: ['photoshop'],
     active: true
   },
   {
@@ -93,7 +93,7 @@ export const projects = [
     namelink: "https://boernerwell.com",
     lightbox: true,
     descr: <span>Website design with HTML/CSS, graphics and copy editing.</span>,
-    tech: 'html, css, photoshop',
+    techs: ['html', 'css', 'photoshop'],
     active: false
   },
   {
@@ -107,7 +107,7 @@ export const projects = [
     namelink: "https://z-fest.com",
     lightbox: false,
     descr: <span>Logo design, website content production and editing, Wordpress upkeep, graphics. (Content now maintained by someone else.)</span>,
-    tech:  'wordpress,html,css, photoshop',
+    techs: [ 'wordpress','html','css', 'photoshop'],
     active: true
   },
   {
@@ -140,7 +140,7 @@ export const projects = [
     //   </video>
     // </div>"
            ,
-    tech: '',
+    techs: [],
     active: true
   },   
  {
@@ -154,7 +154,7 @@ export const projects = [
     namelink: '',
     lightbox: true,
     descr: <span>Various other costumes I've created: Wolverine, Bilbo, Weird Al Yankovic, Han Solo, Princess Leia, Disney's Robin Hood (the fox), Itchy & Scratchy, Daria, Harry Potter's Rita Skeeter and Molly Weasley, and others.</span>,
-    tech: '',
+    techs: [],
     active: true
   },
  {
@@ -168,7 +168,7 @@ export const projects = [
     namelink: '',
     lightbox: true,
     descr: <span>Various props I've constructed. Muppets and giant foam letters for photo shoots and music videos. Prop rifles for <i>The Foreigner</i>. Body casts for <i>Museum</i>.</span>,
-    tech: '',
+    techs: [],
     gallery: ['./images/menu_text.pdf','./images/menu_label.pdf','./images/carnaby_checks.pdf'],
     active: true
   },
@@ -183,7 +183,7 @@ export const projects = [
     namelink: '',
     lightbox: true,
     descr: <span>Music album. Vocals and some harmony arrangement. Recording and mixing in Pro Tools. Graphic design and copy editing for disc and album art. Production manager for mastering and album printing.</span>,
-    tech: 'photoshop, indesign',
+    techs: ['photoshop', 'indesign'],
     active: true
   },
   {
@@ -197,7 +197,7 @@ export const projects = [
     namelink: 'portfolio/spencerstatic/index.html',
     lightbox: false,
     descr: <span>Website design with and HTML/CSS, logo design, graphics, content production and copy editing. (Album art by Matt Shoobe. Illustrations by Katey Harvey.) </span>,
-    tech: 'html, css, photoshop',
+    techs: ['html', 'css', 'photoshop'],
     active: true
 },
 {
@@ -211,7 +211,7 @@ export const projects = [
     namelink: '',
     lightbox: true,
     descr: <span>Graphic design for film festival shirt, band shirts and badges.</span>,
-    tech: 'illustrator',
+    techs: ['illustrator'],
     active: true
 },          
  {
@@ -225,7 +225,7 @@ export const projects = [
     namelink: '',
     lightbox: true,
     descr: <span>Product and Service cards offering integrated server products and equipment rental services. Business Cards. Logo design and graphics.</span>,
-    tech: 'photoshop, indesign',
+    techs: ['photoshop', 'indesign'],
     active: true
   },
   {
@@ -239,7 +239,7 @@ export const projects = [
     namelink: '',
     lightbox: true,
     descr: <span>Front vent panel for Z Systems' custom server product. Panel design in Illustrator.</span>,
-    tech: 'illustrator',
+    techs: ['illustrator'],
     active: true
   },
  {
@@ -253,7 +253,7 @@ export const projects = [
     namelink: '',
     lightbox: true,
     descr: <span>Acrylic paintings, pencil drawings, ink drawings of things I like.</span>,
-    tech: '',
+    techs: [],
     active: true
   },
   {
@@ -267,7 +267,7 @@ export const projects = [
     namelink: "https://forecash.herokuapp.com/",
     lightbox: '',
     descr: <span>Web app to forecast your cashflow when investigating new purchases or hires. Team lead. App design, Ruby on Rails, JavaScript, HTML/CSS. One-day hackathon project. With Chris Yancey, Nick Meehan, Andrew Fruth, and David Stavis. <a href='https://github.com/cyancey/forecash'>View code on GitHub.</a></span>,
-    tech: 'rails, html, css, js, heroku, postgres',
+    techs: ['rails', 'html', 'css', 'js', 'heroku', 'postgresql'],
     active: true
   },
   {
@@ -281,7 +281,7 @@ export const projects = [
     namelink: "https://www.zmillercpa.com/",
     lightbox: '',
     descr: <span>Light Wordpress website for a small family-owned tax business. Design, Wordpress, light JavaScript, HTML/CSS.</span>,
-    tech: 'wordpress,html, css, js',
+    techs: ['wordpress','html', 'css', 'js'],
     active: true
   },
  {
@@ -295,7 +295,7 @@ export const projects = [
     namelink: "https://secret-fjord-30184.herokuapp.com/",
     lightbox: '',
     descr: <span>Website design with HTML/CSS, drag and drop and MVC JavaScript. With Aaron Wertman, Phil Wittig, Rex Suter, and Drew West. (Design parody of <a href='https://dbcconnect.herokuapp.com' target='_blank' rel='noopener noreferrer'>DBC Connect</a>.) <a href='https://github.com/brittanydmiller/connectfour'>View code on GitHub.</a></span>,
-    tech: 'js, html, css,heroku',
+    techs: ['js', 'html', 'css', 'heroku'],
     active: true
   },
  {
@@ -309,7 +309,7 @@ export const projects = [
     namelink: "https://docs.google.com/forms/d/1L6904-ON0ZKC2OzYQXWmL7-lwF_oPN7OcXS-RkAdBd8/edit",
     lightbox: '',
     descr: <span>A motivational tool to allow friends to band together to read the story of finding and destroying the horcruxes from Harry Potter. <a href='https://docs.google.com/forms/d/1L6904-ON0ZKC2OzYQXWmL7-lwF_oPN7OcXS-RkAdBd8/edit'>Report exercise progress here</a> every day and monitor progress through the <a href='https://docs.google.com/spreadsheets/d/1_x3G9rPDG4qfVoQAFcZhM3eOh6LnDbOzY6LV1bynCoM/edit#gid=1281931410'>story here</a>. View the Encounter tab, the Team tab, the Stats tab to see the team\'s progress through the story. View the Library tab to peek at the full story. Built with Google Sheets programming and Google Forms.</span>,
-    tech: 'gsuite',
+    techs: ['gsuite'],
     active: true
   },
   {
@@ -323,7 +323,7 @@ export const projects = [
     namelink: "https://baltimoreclues.home.blog/2018/12/16/the-journey-begins/",
     lightbox: '',
     descr: <span>A fun Baltimore Scavenger Hunt for the traveler with a free afternoon. Website construction with Wordpress and HTML/CSS, riddle/content production and copy editing. </span>,
-    tech: 'wordpress',
+    techs: ['wordpress'],
     active: true
   },
   {
@@ -337,7 +337,7 @@ export const projects = [
     namelink: '',
     lightbox: true,
     descr: <span>Product Label for Z Systems, inc. Graphic design.</span>,
-    tech: 'photoshop',
+    techs: ['photoshop'],
     active: false
   },
   {
@@ -351,7 +351,7 @@ export const projects = [
     namelink: "portfolio/gendergrads2/index.html",
     lightbox: false,
     descr: <span>Web Design I &amp; Web Dev II Project: HTML, CSS, JavaScript, jQuery, graphics. Content borrowed from around the web for educational purposes.</span>,
-    tech: 'js, html, css, photoshop',
+    techs: ['js', 'html', 'css', 'photoshop'],
     active: false
   },
   {
@@ -365,7 +365,7 @@ export const projects = [
     namelink: "portfolio/processbook/processbook-final.pdf",
     lightbox: false,
     descr: <span>Web Design I Project: Graphics, layout, sketches, wireframes, site diagram.</span>,
-    tech: 'indesign',
+    techs: ['indesign'],
     active: true
   },
   {
@@ -379,7 +379,7 @@ export const projects = [
     namelink: '',
     lightbox: true,
     descr: <span>Web Design I Project: Graphic design. Content borrowed from around the web for educational purposes.</span>,
-    tech: 'photoshop',
+    techs: ['photoshop'],
     active: true
   },
   {
@@ -393,7 +393,7 @@ export const projects = [
     namelink: "portfolio/ourgardenpost/index.html",
     lightbox: false,
     descr: <span>Web Design I Project: HTML, CSS, graphics. Content borrowed from the web for educational purposes.</span>,
-    tech: 'html, css, photoshop',
+    techs: ['html', 'css', 'photoshop'],
     active: true
   },
   {
@@ -407,7 +407,7 @@ export const projects = [
     namelink: "portfolio/dingn/index.html",
     lightbox: false,
     descr: <span>Ding\n wraps your lines by inserting custom linebreaks (\n) at just the right spots! Seems simple, and could easily be handled with one line of CSS, but Ding\n does it 'manually' using vanilla JavaScript. This was a code challenge -- I don't claim Ding\n is a useful app. <a href='https://github.com/brittanydmiller/js-paragraph-fitter'>View code on GitHub</a>.</span>,
-    tech:'js, html, css',
+    techs: ['js', 'html', 'css'],
     active: false
   },
   {
@@ -421,7 +421,7 @@ export const projects = [
     namelink: "portfolio/gollum/index.html",
     lightbox: false,
     descr: <span>Web Dev II Project: A Beginner's JavaScript Riddle Game.</span>,
-    tech: 'js',
+    techs: ['js'],
     active: true
   }
 ]
