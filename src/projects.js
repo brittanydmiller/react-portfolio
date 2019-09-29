@@ -372,7 +372,7 @@ export const projects = [
     id: 'typography',
     classes: 'graphics-and-layout coursework',
     thumblink:'',
-    thumbsrc: '"typography_thumb.png',
+    thumbsrc: 'typography_thumb.png',
     thumbalt: 'Typography Exercises',
     thumbtitle: '',
     name: 'Typography Exercises',

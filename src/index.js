@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import './css/halftone.png';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import 'tachyons';
@@ -13,10 +12,19 @@ WebFont.load({
   }
 });
 
+function importAll(r) {
+  let assets = {};
+  r.keys().forEach((record, i) => { assets[record.replace('./', '')] = r(record); });
+  return assets;
+}
+
+const images = importAll(require.context('./images/', false, /\.(png|jpe?g|svg|gif)$/));
+
+const css_images = importAll(require.context('./css/', false, /\.(png|jpe?g|svg|gif)$/));
 
 
 ReactDOM.render(
-	<App />
+	<App images={images} css_images={css_images}/>
 , document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change

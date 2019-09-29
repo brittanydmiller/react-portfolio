@@ -2,13 +2,12 @@ import React from 'react';
 import Project from './Project';
 
 
-const ProjectList = ({projects, images}) => {
-	
-	const projectComponent = projects.map((record, i) => {
+const ProjectList = ({projects, images, css_images}) => {
+		const projectComponent = projects.map((record, i) => {
 		if (record.active) {
 			return ( 
 				<Project
-					images={images}
+					image={images[projects[i].thumbsrc]}
 					key={i}
 					id={projects[i].id}
 					classes={projects[i].classes}
