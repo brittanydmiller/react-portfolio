@@ -4,16 +4,24 @@ import Project from './Project';
 
 const ProjectList = ({projects, images, css_images}) => {
 	const projectComponent = projects.map((record, i) => {
+
 		if (record.active) {
+			if (record.gallery_images) {
+				var gallery = []
+				record.gallery_images.forEach((r) => {
+					gallery.push(`${images[r.src]}`);
+				});
+			}
+
 			return ( 
 				<Project
-					image={images[record.thumbsrc]}
+					thumb={images[record.thumbsrc]}
+          gallery_images={gallery}
           css_images={css_images}
 					key={i}
 					id={record.id}
 					classes={record.classes}
 					thumblink={record.thumblink}
-					thumbsrc={record.thumbsrc}
 					thumbalt={record.thumbalt}
 					thumbtitle={record.thumbtitle}
 					namelink={record.namelink}
