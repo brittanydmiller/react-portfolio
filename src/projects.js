@@ -38,7 +38,7 @@ export const projects = [
     name: 'Spencer McGillicutty',
     namelink: "https://spencermcgillicutty.com",
     lightbox: false,
-    descr: <span>Website design with Wordpress and HTML/CSS, logo design, graphics, content production and copy editing. (Album art by Matt Shoobe. Illustrations by Katey Harvey.) </span>,
+    descr: <span>Website design with Wordpress and HTML/CSS, logo design, graphics, content production and copy editing. (Album art by Matt Shoobe. Illustrations by <a href='http://kateyjean.blogspot.com/' target='_blank' rel='noopener noreferrer'> Katey Harvey</a>.) </span>,
     techs: ['wordpress', 'html', 'css', 'photoshop'],
     active: false
   },
@@ -267,11 +267,12 @@ export const projects = [
     name: 'Spencer McGillicutty\'s Games',
     namelink: '',
     lightbox: true,
-    descr: <span>Music album. Vocals and some harmony arrangement. Recording and mixing in Pro Tools. Graphic design and copy editing for disc and album art. Production manager for mastering and album printing.</span>,
+    descr: <span>Music album. Vocals and some harmony arrangement. Recording and mixing in Pro Tools. Graphic design and copy editing for disc and album art. Production manager for mastering and album printing. Was released in Japan on Fastcut Records.</span>,
     techs: ['photoshop', 'indesign'],
     active: true,
     gallery_images: [
           { src: "Games500.jpg", title: "Spencer McGillicutty's second album, Games. Graphic design, copy editing, vocals." },
+          { src: "spencer_japan_album_cover.jpg", title: "Promo photo for the Japanese release on Fastcut Records."},
           { src: "spencerGamesDisc.jpg", title: "Spencer McGillicutty's second album, Games. Graphic design, copy editing, vocals. (Disc.)" },
          ]
   },
@@ -285,7 +286,7 @@ export const projects = [
     name: 'Spencer McGillicutty Website',
     namelink: 'portfolio/spencerstatic/index.html',
     lightbox: false,
-    descr: <span>Website design with and HTML/CSS, logo design, graphics, content production and copy editing. (Album art by Matt Shoobe. Illustrations by Katey Harvey.) </span>,
+    descr: <span>Website design with and HTML/CSS, logo design, graphics, content production and copy editing. (Album art by Matt Shoobe. Illustrations by <a href='http://kateyjean.blogspot.com/' target='_blank' rel='noopener noreferrer'> Katey Harvey</a>.) </span>,
     techs: ['html', 'css', 'photoshop'],
     active: true
 },
@@ -504,11 +505,11 @@ export const projects = [
     techs: ['photoshop'],
     active: true,
     gallery_images: [
-          { src: 'portfolio/typographyexercises/typography-pngs/typographyHome.png', title: "Typography Exercises. Web Design I Project: Graphic design. Content borrowed from around the web for educational purposes." },
-          { src: "portfolio/typographyexercises/typography-pngs/typographyP5.png", title: "Typography Exercises. Web Design I Project: Graphic design. Content borrowed from around the web for educational purposes." },
-          { src: "portfolio/typographyexercises/typography-pngs/typographyP2.png", title: "Typography Exercises. Web Design I Project: Graphic design. Content borrowed from around the web for educational purposes." },
-          { src: "portfolio/typographyexercises/typography-pngs/typographyP3.png", title: "Typography Exercises. Web Design I Project: Graphic design. Content borrowed from around the web for educational purposes." },
-          { src: "portfolio/typographyexercises/typography-pngs/typographyP4.png", title: "Typography Exercises. Web Design I Project: Graphic design. Content borrowed from around the web for educational purposes." }
+          { src: 'typographyHome.png', title: "Typography Exercises. Web Design I Project: Graphic design. Content borrowed from around the web for educational purposes." },
+          { src: "typographyP5.png", title: "Typography Exercises. Web Design I Project: Graphic design. Content borrowed from around the web for educational purposes." },
+          { src: "typographyP2.png", title: "Typography Exercises. Web Design I Project: Graphic design. Content borrowed from around the web for educational purposes." },
+          { src: "typographyP3.png", title: "Typography Exercises. Web Design I Project: Graphic design. Content borrowed from around the web for educational purposes." },
+          { src: "typographyP4.png", title: "Typography Exercises. Web Design I Project: Graphic design. Content borrowed from around the web for educational purposes." }
         ]
   },
   {
