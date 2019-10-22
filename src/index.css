@@ -185,11 +185,12 @@ ul {
 .item {
   vertical-align: middle;
   padding: 4em 6em;
+  width: 100%;
   }
 
-.item.dark {
+/*.item.dark {
   background-color: #d8e3ea;
-  }
+  }*/
 
 .portfolio-thumb {
   /*filter:alpha(opacity=90); */   /* ie  */

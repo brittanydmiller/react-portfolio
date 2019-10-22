@@ -21,8 +21,8 @@ const TechList = ({techs, css_images}) => {
     const techComponent = techs.map((technology, i) => {
       const data = technologies[technology];
       return(
-        <li>
-          <img 
+        <li key={i}>
+          <img
             src={css_images[data.src]}
             alt={data.alt}
             width={data.width}
