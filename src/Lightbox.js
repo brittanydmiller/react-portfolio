@@ -28,7 +28,7 @@ export default class LightboxListener extends Component {
           }
           : false
         }>
-          <a href={link} rel={`noreferrer noopener ${ !!images ? 'lightbox' : ''}`} >
+          <a href={link} rel={'noreferrer noopener'} >
             <img src={thumb} alt={alt} title={title} width="200px" height="200px" />
           </a>
         </div>

@@ -10,7 +10,7 @@ const Project = ({css_images, thumb, gallery_images, id, classes, thumblink, thu
       <div className="offset">
         <LightboxListener thumb={thumb} gallery_images={gallery_images} link={thumblink} alt={thumbalt} title={thumbtitle} />
         <div className="caption">
-          <a href={namelink} rel="lightbox noreferrer nooopener">{name}</a>
+          <a href={namelink} rel="noreferrer nooopener">{name}</a>
           <p className="descrip">{descr}</p>
           <TechList techs={techs} css_images={css_images} />
         </div>
