@@ -40,12 +40,12 @@ export const projects = [
     lightbox: false,
     descr: <span>Website design with Wordpress and HTML/CSS, logo design, graphics, content production and copy editing. (Album art by Matt Shoobe. Illustrations by Katey Harvey.) </span>,
     techs: ['wordpress', 'html', 'css', 'photoshop'],
-    active: true
+    active: false
   },
   {
     id: 'sets',
     classes: 'sets-and-props arts hobby',
-    thumblink:'"',
+    thumblink:'',
     thumbsrc: 'foreigner-day.jpg',
     thumbalt: 'The Foreigner set',
     thumbtitle: '',
@@ -54,7 +54,23 @@ export const projects = [
     lightbox: true,
     descr: <span>Various sets I've helped construct or dress. <i>The Foreigner</i> and <i>Museum</i> at The College of Saint Benedict. A music video shoot for Spencer McGillicutty.</span>,
     techs: [],
-    active: true
+    active: true,
+    gallery_images: [
+          { src: 'foreigner-day.jpg', title: 'The Foreigner at The College of Saint Benedict. Sourced all the kitsch, the fishing net, the paddles, the art, the spoon rack, coat rack, letter rack, etc. Helped make the fake fish trophies using a vacuform.' },
+          { src: "foreigner15.jpg", title: 'The Foreigner at The College of Saint Benedict. Sourced all the kitsch, the fishing net, the paddles, the art, the spoon rack, coat rack, letter rack, etc. Helped make the fake fish trophies using a vacuform.' },
+          { src: "foreigner13.jpg", title: 'The Foreigner at The College of Saint Benedict. Sourced all the kitsch, the fishing net, the paddles, the art, the spoon rack, coat rack, letter rack, etc. Helped make the fake fish trophies using a vacuform.' },
+          { src: "foreigner14.jpg", title: 'The Foreigner at The College of Saint Benedict. Sourced all the kitsch, the fishing net, the paddles, the art, the spoon rack, coat rack, letter rack, etc. Helped make the fake fish trophies using a vacuform.' },
+          { src: "foreigner16.jpg", title: "Set dressing on walls." },
+          { src: "foreigner12.jpg", title: "Dynamite made from wood, paper, string, paint." },
+          { src: "larkspur-set.jpg", title: "Larkspur Set (Paint Crew)" },
+          { src: "talk-to-me-set.jpg", title: "Talk to Me Like the Rain and Let Me Listen (Paint Crew)" },
+          { src: "music_vid2.jpg", title: "Prop Master for Music Video Shoot, Restaurant Scene. Sourced tables, chairs, table cloths, dishware, menus, checks." },
+          { src: "spencer-vid2.jpg", title: "Prop Master for Music Video Shoot, Restaurant Scene. Sourced tables, chairs, table cloths, dishware, menus, checks." },
+          { src: "menu2.jpg", title: "Prop Master for Music Video Shoot, Restaurant Scene. Created menu." },
+          { src: "check2.jpg", title: "Prop Master for Music Video Shoot, Restaurant Scene. Created check." },
+          { src: "check_front1.jpg", title: "Prop Master for Music Video Shoot, Restaurant Scene. Created check & end title." },
+          { src: "music_vid.jpg", title: "Prop Master for Music Video Shoot, Band Scene" }
+        ]
   },
   {
     id: 'zbrochure',
@@ -67,7 +83,11 @@ export const projects = [
     lightbox: true,
     descr: <span>Company brochure for Z Systems, inc. Graphics, layout, content production and copy editing. See PDF <a href='portfolio/ZSystems-2012.pdf' target='_blank' title='Company Brochure for Z Systems, inc. Graphics, layout, content production and copy editing'>here</a>.</span>,
     techs: ['photoshop', 'indesign'],
-    active: true
+    active: true,
+    gallery_images: [
+          { src: 'zbrochure-phys-front.jpg', title: 'Company Brochure for Z Systems, inc. Graphics, layout, content production and copy editing' },
+          { src: "zbrochure-phys-back.jpg", title: 'Company Brochure for Z Systems, inc. Graphics, layout, content production and copy editing' }
+        ]
   },
   {
     id:'spencerSelf',
@@ -80,7 +100,16 @@ export const projects = [
     lightbox: true,
     descr: <span>Music album. Vocals and some harmony arrangement. Graphic design and copy editing for disc and album art. Production manager for mastering and album printing. Staining/aging envelopes before printing. Assembling disc packages by hand.</span>,
     techs: ['photoshop'],
-    active: true
+    active: true,
+    gallery_images: [
+          // { src: "SpencerSelfCover.jpg", title: "Spencer McGillicutty's self-titled debut album. Graphic design, copy editing, vocals." },
+          { src: "spencer-debut-cover.jpg", title: "Spencer McGillicutty's self-titled debut album. Graphic design, copy editing, vocals. (Front Cover.)" },
+          { src: "spencer-debut-disc.jpg", title: "Spencer McGillicutty's self-titled debut album. Graphic design, copy editing, vocals. (Disc.)" },
+          { src: "spencer-debut-all.jpg", title: "Spencer McGillicutty's self-titled debut album. Graphic design, copy editing, vocals. (Back Cover.)" },
+          { src: "SpencerSelfInside.jpg", title: "Spencer McGillicutty's self-titled debut album. Graphic design, copy editing, vocals. (Inside panel.)" },
+          { src: "Spencer-Disc.png", title: "Spencer McGillicutty's self-titled debut album. Graphic design, copy editing, vocals. (Disc.)" },
+          { src: "SpencerBackCover.jpg", title: "Spencer McGillicutty's self-titled debut album. Graphic design, copy editing, vocals. (Back Cover.)" }
+        ]
   },
   {
     id: 'boernerwell',
@@ -141,7 +170,17 @@ export const projects = [
     // </div>"
            ,
     techs: [],
-    active: true
+    active: true,
+    gallery_images: [
+          { src: 'leela11.jpg', title: 'Leela Cosplay Costume for CONvergence Exhibition' },
+          { src: "leela3.jpg", title: "Moonboots painted with PlastiDip, with added foam buckles. Ray gun made from water pistol, hair stick, and moldable foam for the accents." },
+          { src: "leela5.jpg", title: "Ponytail wig constructed from 2 wigs." },
+          { src: "leela_stage.jpg", title: "Displayed at CONvergence Costume Exhibition." },
+          { src: "leela-gun.jpg", title: "Ray gun made from water pistol, hair stick, and moldable foam for the accents." },
+          { src: "leela-eye1.jpg", title: "Buckram Eyeball with Latex eyelid and wire eyelashes. Movable pupil on fishing line and pulleys. " },
+          { src: "leela-eye.jpg", title: "Buckram Eyeball with Latex eyelid and wire eyelashes. Movable pupil on fishing line and pulleys. " },
+          { src: "leela-gauntlet.jpg", title: "Gauntlet constructed from rubber galoshes, knee pads, and moldable foam, with LED lights and cell phone storage inside." }
+        ]
   },   
  {
     id: 'miscCostumes',
@@ -155,7 +194,35 @@ export const projects = [
     lightbox: true,
     descr: <span>Various other costumes I've created: Wolverine, Bilbo, Weird Al Yankovic, Han Solo, Princess Leia, Disney's Robin Hood (the fox), Itchy & Scratchy, Daria, Harry Potter's Rita Skeeter and Molly Weasley, and others.</span>,
     techs: [],
-    active: true
+    active: true,
+    gallery_images: [
+          { src: 'wolverine_threat.jpg', title: "Wolverine. Claws made from spikes, foam, and duct tape. Fake side burns with spirit gum. Dogtags made from painted cardboard."},
+          { src: "bilbo2.jpg", title: "Bilbo Baggins. Hobbit ears, hairy feet. Thrifted clothing." },
+          { src: "weird_al_yankovic_accordion.jpg", title: "Weird Al Yankovic. All pieces thrifted. Popped the lenses out of some sunglasses and painted them. Already had an accordion!" },
+          { src: "barriss-and-kit.jpg", title: "Barriss Offee, seen here with Kit Fisto. Made a cream face paint out of eyeshadow and chapstick. Sewed the blue hooded cloak." },
+          { src: "han_solo_solo.jpg", title: "Han Solo. Custom vest created by disassembling a thrifted shirt and re-hemming. Blood stripe temporarily added to pants. Custom blaster and gun belt. " },
+          { src: "han-belt-left.jpg", title: "Han Solo. Gun belt made by connecting a belt and a purse strap. Used a corner of the purse for the holster." },
+          { src: "han-belt-front.jpg", title: "Han Solo. Gun belt made by connecting a belt and a purse strap. Used a corner of the purse for the holster." },
+          { src: "han-belt-right.jpg", title: "Han Solo. Gun belt accents are pieces of a hair dryer and curling iron I thrifted." },
+          { src: "han-blaster.jpg", title: "Han Solo. (Not a replica of Han's personal blaster). Assembled overnight by combining pieces from a mini hair dryer and a curling iron with black duct tape." },
+          { src: "han-blaster-front.jpg", title: "Han Solo. (Not a replica of Han's personal blaster). Assembled overnight by combining pieces from a mini hair dryer and a curling iron with black duct tape." },
+          // <!-- { src: "han-vest-crop.jpg", title: "Han Solo. Custom vest, blaster and gun belt."], - }>
+          { src: "han_solo2.jpg", title: "Han Solo. Custom vest created by disassembling a thrifted shirt and re-hemming. Blood stripe temporarily added to pants. Custom blaster and gun belt. " },
+          { src: "leia-full.jpg", title: "Princess Leia. Gown made in one night from bedsheets, staples, duct tape. (Blaster and belt borrowed.) Won first prize in the dorm costume contest." },
+          // <!-- { src: "leia.jpg", title: "Princess Leia. Gown made in one night from bedsheets, staples, duct tape. (Blaster and belt borrowed.) Won first prize in the dorm costume contest."],- }>
+          { src: "robin_hood.jpg", title: "Disney Animated Robin Hood (with Kaa and Maid Marian). Cut and altered thrifted pieces. Crafted fox ears and affixed to borrowed hat." },
+          { src: "itchy_scratchy1_crop.jpg", title: "Made both Itchy and Scratchy costumes - created gloves, clothes with purple bellies, thrifted and painted the mouse headpiece, created the cat headpiece." },
+          // <!-- { src: "itchy-scratchy-cute.jpg", title: ""], - }>
+          { src: "itchy-scratchy.jpg", title: "Made both Itchy and Scratchy costumes - created gloves, clothes with purple bellies, thrifted and painted the mouse headpiece, created the cat headpiece." },
+          { src: "la-la-La-la-la.jpg", title: "Daria Morgendorffer. Thrifted all pieces. Popped the lenses out of some round sunglasses." },
+          { src: "rita-skeeter2.jpg", title: "Rita Skeeter for the Harry Potter Premiere. All pieces thrifted." },
+          // <!-- { src: "rita_skeeter.jpg", title: "Rita Skeeter (from Harry Potter). All pieces thrifted."], - }>
+          { src: "harry-potter.jpg", title: "Molly Weasley costume for the Harry Potter Premiere. All pieces thrifted/found." },
+          { src: "molly-weasley.jpg", title: "Molly Weasley costume for the Harry Potter Premiere. All pieces thrifted/found." },
+          { src: "jocks.jpg", title: "CONvergence Group Costume for the theme 'Villains'. We went meta and showed up to the nerdfest as Jocks and Cheerleaders. Sourced and printed the Cheerleader uniforms and Jocks jerseys. Reception was confused and then celebratory. " },
+          { src: "zombie_dorothy.jpg", title: "Zombie Dorothy. Part of a full zombie Oz crew for the pub crawl. Included a basket with a Toto CD in it. Seen here talking to Zombie Billy Mays from the OxiClean and ShamWow commercials." },
+          { src: "pilot_gang_crop.jpg", title: "Pilot Costume with handmade goggles. Coat and scarves were thrifted. Safari costume on the bearded fellow as well -- all pieces thrifted." },
+        ]
   },
  {
     id: 'props',
@@ -169,8 +236,26 @@ export const projects = [
     lightbox: true,
     descr: <span>Various props I've constructed. Muppets and giant foam letters for photo shoots and music videos. Prop rifles for <i>The Foreigner</i>. Body casts for <i>Museum</i>.</span>,
     techs: [],
-    gallery: ['./images/menu_text.pdf','./images/menu_label.pdf','./images/carnaby_checks.pdf'],
-    active: true
+    gallery: ['./menu_text.pdf','./menu_label.pdf','./carnaby_checks.pdf'],
+    active: true,
+    gallery_images: [
+          { src: "muppets_construction.jpg", title: "Muppets under construction. Made with paper mache, foam, glue, cardboard, ping-pong balls, and various felted fabrics. Led by Mitchell Johnson and Gwen Wasmund. Made with Jerry McMurray and Oanh Vu." },
+          { src: "chin_muppet.jpg", title: "Cro Magnon Muppet has a large cardboard chin." },
+          { src: "finished_muppets.jpg", title: "Some faces are taking shape." },
+          { src: "muppets-pile900.jpg", title: "Pompous Mozart Muppet has a body!" },
+          { src: "muppets-bodies900.jpeg", title: "Christmas Muppets with costumes." },
+          { src: "G-A-M-E-S-compressed-600.jpg", title: "Large Prop Letters. Constructed from dense styrofoam. Used in a photoshoot for a new album cover for our Japanese release with Fastcut Records. With Jerry McMurray." },
+          { src: "spencer_japan_album_cover.jpg", title: "Large Prop Letters. Constructed from dense styrofoam. Used in a photoshoot for a new album cover for our Japanese release with Fastcut Records. With Jerry McMurray." },
+          { src: "gun1.jpg", title: "Making rifles for The Foreigner from wood and piping." },
+          { src: "gun2.jpg", title: "Making rifles for The Foreigner from wood and piping." },
+          { src: "gun3.jpg", title: "Making rifles for The Foreigner from wood and piping." },
+          { src: "gun4.jpg", title: "Making rifles for The Foreigner from wood and piping." },
+          { src: "foreigner-guns.jpg", title: "Prop rifles onstage in The Foreigner." },
+          { src: "bodycast1.jpg", title: "Taking casts of bodies to use as the Art in Museum." },
+          { src: "bodycast2.jpg", title: "Taking casts of bodies to use as the Art in Museum." },
+          { src: "bodycast3.jpg", title: "Taking casts of bodies to use as the Art in Museum." },
+          { src: "bodycast4.jpg", title: "Taking casts of bodies to use as the Art in Museum." }
+        ]
   },
   {
     id: 'spencerGames',
@@ -184,7 +269,11 @@ export const projects = [
     lightbox: true,
     descr: <span>Music album. Vocals and some harmony arrangement. Recording and mixing in Pro Tools. Graphic design and copy editing for disc and album art. Production manager for mastering and album printing.</span>,
     techs: ['photoshop', 'indesign'],
-    active: true
+    active: true,
+    gallery_images: [
+          { src: "Games500.jpg", title: "Spencer McGillicutty's second album, Games. Graphic design, copy editing, vocals." },
+          { src: "spencerGamesDisc.jpg", title: "Spencer McGillicutty's second album, Games. Graphic design, copy editing, vocals. (Disc.)" },
+         ]
   },
   {
     id: 'spencer',
@@ -212,7 +301,15 @@ export const projects = [
     lightbox: true,
     descr: <span>Graphic design for film festival shirt, band shirts and badges.</span>,
     techs: ['illustrator'],
-    active: true
+    active: true,
+    gallery_images: [
+          { src: "t-shirtFront.png", title: "Z-Fest T-shirt (Front). Graphic design." },
+          { src: "t-shirtBack.png", title: "Z-Fest T-Shirt (Back). Graphic design." },
+          { src: "front-shirt.jpg", title: "Z-Fest T-Shirt (Front). Graphic design." },
+          { src: "back-shirt.jpg", title: "Z-Fest T-Shirt (Back). Graphic design." },
+          { src: "spencertee.jpg", title: "Band T-Shirt. Hand drawn, then submitted for print via Illustrator." },
+          { src: "spencer-buttons.jpg", title: "Band badges. Combination of Hand Drawing and Illustrator." }
+        ]
 },          
  {
     id: 'zshare',
@@ -226,7 +323,19 @@ export const projects = [
     lightbox: true,
     descr: <span>Product and Service cards offering integrated server products and equipment rental services. Business Cards. Logo design and graphics.</span>,
     techs: ['photoshop', 'indesign'],
-    active: true
+    active: true,
+    gallery_images: [
+          { src: "ZSharedark.jpg", title: "Z-Share product card for Z Systems, inc. (Front.) Copy editing, graphic design." },
+          { src: "zshare-phys-back.jpg", title: "Z-Share product card for Z Systems, inc. (Back.) Copy editing, graphic design." },
+          { src: "Z-Share-card.jpg", title: "Z-Share product card for Z Systems, inc. (Front.) Copy editing, graphic design." },
+          { src: "Z-Share-card-back-portfoliover.png", title: "Z-Share product card for Z Systems, inc. (Back.) Copy editing, graphic design." },
+          { src: "zrentals-front.jpg", title: "Rentals card product card for Z Systems, inc. (Front.) Copy editing, graphic design." },
+          { src: "zrentals-back.jpg", title: "Rentals card product card for Z Systems, inc. (Back.) Copy editing, graphic design." },
+          { src: "CeoBizCardDark.jpg", title: "Business Cards for Z Systems, inc. Graphic design" },
+          { src: "WeRentCard.jpg", title: "Business cards for Z Systems, inc. (Rental sticker on back). Graphic Design." },
+          { src: "spencer_bizcard.jpg", title: "Business cards for Spencer McGillicutty. Layout." },
+          { src: "spencer_bizcard_back.jpg", title: "Business cards for Spencer McGillicutty. Layout." }
+        ]
   },
   {
     id: 'z-share-vent',
@@ -240,7 +349,10 @@ export const projects = [
     lightbox: true,
     descr: <span>Front vent panel for Z Systems' custom server product. Panel design in Illustrator.</span>,
     techs: ['illustrator'],
-    active: true
+    active: true,
+    gallery_images: [
+          { src: 'z-shareFull.jpg', title: "Z-Share vent panel. Product design" }
+        ]
   },
  {
     id: '"visualArt',
@@ -254,7 +366,17 @@ export const projects = [
     lightbox: true,
     descr: <span>Acrylic paintings, pencil drawings, ink drawings of things I like.</span>,
     techs: [],
-    active: true
+    active: true,
+    gallery_images: [
+          { src: 'tiger.jpg', title: "Tiger. Acrylic paints"},
+          { src: "diver.jpg", title: "Diver. Ink." },
+          { src: "lighthouse.jpg", title: "Lighthouse. Acrylic paints." },
+          { src: "monkeys.jpg", title: "Snow Monkeys. Ink." },
+          { src: "belma2.gif", title: "Belma Treewalker. Pencil." },
+          { src: "BlueEyes.jpg", title: "Blue Eyes White Dragon Yugioh. Ink." },
+          { src: "mygoliath.jpg", title: "Goliath from Gargoyles. Pencil." },
+          { src: "AllTheHappyLegs.jpg", title: "Album Cover Mockup. Ink and Marker, with some Illustrator for the mockup." }
+        ]
   },
   {
     id: 'forecash',
@@ -380,7 +502,14 @@ export const projects = [
     lightbox: true,
     descr: <span>Web Design I Project: Graphic design. Content borrowed from around the web for educational purposes.</span>,
     techs: ['photoshop'],
-    active: true
+    active: true,
+    gallery_images: [
+          { src: 'portfolio/typographyexercises/typography-pngs/typographyHome.png', title: "Typography Exercises. Web Design I Project: Graphic design. Content borrowed from around the web for educational purposes." },
+          { src: "portfolio/typographyexercises/typography-pngs/typographyP5.png", title: "Typography Exercises. Web Design I Project: Graphic design. Content borrowed from around the web for educational purposes." },
+          { src: "portfolio/typographyexercises/typography-pngs/typographyP2.png", title: "Typography Exercises. Web Design I Project: Graphic design. Content borrowed from around the web for educational purposes." },
+          { src: "portfolio/typographyexercises/typography-pngs/typographyP3.png", title: "Typography Exercises. Web Design I Project: Graphic design. Content borrowed from around the web for educational purposes." },
+          { src: "portfolio/typographyexercises/typography-pngs/typographyP4.png", title: "Typography Exercises. Web Design I Project: Graphic design. Content borrowed from around the web for educational purposes." }
+        ]
   },
   {
     id: 'our-garden-post',
