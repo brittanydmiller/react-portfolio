@@ -38,7 +38,7 @@ export const projects = [
     name: 'Spencer McGillicutty',
     namelink: "https://spencermcgillicutty.com",
     lightbox: false,
-    descr: <span>Website design with Wordpress and HTML/CSS, logo design, graphics, content production and copy editing. (Album art by Matt Shoobe. Illustrations by <a href='http://kateyjean.blogspot.com/' target='_blank' rel='noopener noreferrer'> Katey Harvey</a>.) </span>,
+    descr: <span>Website design with Wordpress and HTML/CSS, logo design, graphics, content production and copy editing. (Album art by <a href="https://cargocollective.com/mattschubbe" rel="noopener noreferrer" target="_blank">Matt Schubbe</a>. Illustrations by <a href='http://kateyjean.blogspot.com/' target='_blank' rel='noopener noreferrer'> Katey Harvey</a>.) </span>,
     techs: ['wordpress', 'html', 'css', 'photoshop'],
     active: false
   },
@@ -286,7 +286,7 @@ export const projects = [
     name: 'Spencer McGillicutty Website',
     namelink: 'portfolio/spencerstatic/index.html',
     lightbox: false,
-    descr: <span>Website design with and HTML/CSS, logo design, graphics, content production and copy editing. (Album art by Matt Shoobe. Illustrations by <a href='http://kateyjean.blogspot.com/' target='_blank' rel='noopener noreferrer'> Katey Harvey</a>.) </span>,
+    descr: <span>Website design with and HTML/CSS, logo design, graphics, content production and copy editing. (Album art by <a href="https://cargocollective.com/mattschubbe" rel="noopener noreferrer" target="_blank">Matt Schubbe</a>. Illustrations by <a href='http://kateyjean.blogspot.com/' target='_blank' rel='noopener noreferrer'> Katey Harvey</a>.) </span>,
     techs: ['html', 'css', 'photoshop'],
     active: true
 },
