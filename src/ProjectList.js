@@ -2,10 +2,11 @@ import React from 'react';
 import Project from './Project';
 
 
-const ProjectList = ({projects, images, css_images}) => {
-	const projectComponent = projects.map((record, i) => {
+const ProjectList = ({projects, images, css_images, filter}) => {
+	const activeProjects = projects.filter(projects => { return projects.active })
+	const projectComponent = activeProjects.map((record, i) => {
 
-		if (record.active) {
+		if (filter === "all" || record.classes.includes(filter)) {
 			if (record.gallery_images) {
 				var gallery = []
 				record.gallery_images.forEach((r) => {
