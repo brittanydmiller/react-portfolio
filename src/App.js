@@ -17,14 +17,14 @@ const currentYear = new Date().getFullYear();
 
 class App extends Component {
 	constructor() {
-		super()
+		super();
 		this.state = {
 			filter: 'all'
 		}
 	}
 
 	onFilterClick = (event) => {
-		this.setState({ filter: event.target.id }) 
+		this.setState({ filter: event.target.id });
 	}
 
 	render() {
