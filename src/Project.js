@@ -50,7 +50,7 @@ class Project extends Component {
             <img src={this.props.thumb} alt={this.props.thumbalt} title={this.props.thumbtitle} width="200px" height="200px"  />
           </a>
           <div className="caption">
-            <a href={!!this.props.namelink ? this.props.namelink : undefined } rel="noreferrer nooopener" onClick= { !!images ? (e) => { this.openLightbox(e) } : undefined }>
+            <a href={!!this.props.namelink ? this.props.namelink : undefined } target="_blank" rel="noreferrer noopener" onClick= { !!images ? (e) => { this.openLightbox(e) } : undefined }>
               {this.props.name}
             </a>
             <p className="descrip">{this.props.descr}</p>
