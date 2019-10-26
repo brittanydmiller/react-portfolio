@@ -17,7 +17,8 @@ const ProjectList = ({projects, images, css_images, filter}) => {
 			return ( 
 				<Project
 					thumb={images[record.thumbsrc]}
-          gallery_images={gallery}
+          gallery_details={record.gallery_images}
+          gallery={gallery}
           css_images={css_images}
 					key={record.id}
 					id={record.id}

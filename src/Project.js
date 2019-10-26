@@ -21,36 +21,37 @@ class Project extends Component {
 
   render(){
     const { photoIndex, isOpen } = this.state;
-    const images = this.props.gallery_images
-    
+    const gallery = this.props.gallery
+    debugger    
     return (
       <div id={this.props.id} className={`item bg-lightest-blue dib br3 pa3 ma2 grow bw2 shadow-5 ${this.props.classes}`}>
         <div className="offset">
           <div>
             {isOpen && (
               <Lightbox
-                mainSrc={images[photoIndex]}
-                nextSrc={images[(photoIndex + 1) % images.length]}
-                prevSrc={images[(photoIndex + images.length - 1) % images.length]}
+                mainSrc={gallery[photoIndex]}
+                imageCaption={this.props.gallery_details[photoIndex].title}
+                nextSrc={gallery[(photoIndex + 1) % gallery.length]}
+                prevSrc={gallery[(photoIndex + gallery.length - 1) % gallery.length]}
                 onCloseRequest={() => this.setState({ isOpen: false })}
                 onMovePrevRequest={() =>
                   this.setState({
-                    photoIndex: (photoIndex + images.length - 1) % images.length,
+                    photoIndex: (photoIndex + gallery.length - 1) % gallery.length,
                   })
                 }
                 onMoveNextRequest={() =>
                   this.setState({
-                    photoIndex: (photoIndex + 1) % images.length,
+                    photoIndex: (photoIndex + 1) % gallery.length,
                   })
                 }
               />
             )}
           </div>
-          <a href={this.props.namelink} target="_blank" rel='noreferrer noopener' onClick= { !!images ? (e) => { this.openLightbox(e) } : undefined }>
+          <a href={this.props.namelink} target="_blank" rel='noreferrer noopener' onClick= { !!gallery ? (e) => { this.openLightbox(e) } : undefined }>
             <img src={this.props.thumb} alt={this.props.thumbalt} title={this.props.thumbtitle} width="200px" height="200px"  />
           </a>
           <div className="caption">
-            <a href={!!this.props.namelink ? this.props.namelink : undefined } target="_blank" rel="noreferrer noopener" onClick= { !!images ? (e) => { this.openLightbox(e) } : undefined }>
+            <a href={!!this.props.namelink ? this.props.namelink : undefined } target="_blank" rel="noreferrer noopener" onClick= { !!gallery ? (e) => { this.openLightbox(e) } : undefined }>
               {this.props.name}
             </a>
             <p className="descrip">{this.props.descr}</p>
