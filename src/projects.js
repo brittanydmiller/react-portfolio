@@ -391,7 +391,7 @@ export const projects = [
     lightbox: '',
     descr: <span>Web app to forecast your cashflow when investigating new purchases or hires. Team lead. App design, Ruby on Rails, JavaScript, HTML/CSS. One-day hackathon project. With Chris Yancey, Nick Meehan, Andrew Fruth, and David Stavis. <a href='https://github.com/cyancey/forecash'>View code on GitHub.</a></span>,
     techs: ['rails', 'html', 'css', 'js', 'heroku', 'postgresql'],
-    active: true
+    active: false
   },
   {
     id: 'miller-tax',
