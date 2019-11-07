@@ -61,7 +61,7 @@ class App extends Component {
 			    </div>
 			  </header>
 			  <Profile images={images} css_images={css_images} />
-				<Filters toggleButtons={this.toggleFilterButtons} filterClick={this.onFilterClick} isDesktop={isDesktop} isHidden={isHidden}/>
+				<Filters toggleButtons={this.toggleFilterButtons} filterClick={this.onFilterClick} isDesktop={isDesktop} isHidden={isHidden} filter={this.state.filter}/>
 				<ProjectList projects={projects} images={images} css_images={css_images} filter={this.state.filter} />
 				<footer className="clear">
 			    <div className="offset">
