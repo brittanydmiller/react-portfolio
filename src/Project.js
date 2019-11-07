@@ -22,7 +22,7 @@ class Project extends Component {
   render(){
     const { photoIndex, isOpen } = this.state;
     const gallery = this.props.gallery
-    debugger    
+    
     return (
       <div id={this.props.id} className={`item bg-lightest-blue dib br3 pa3 ma2 grow bw2 shadow-5 ${this.props.classes}`}>
         <div className="offset">

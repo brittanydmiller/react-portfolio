@@ -19,8 +19,29 @@ class App extends Component {
 	constructor() {
 		super();
 		this.state = {
-			filter: 'all'
+			filter: 'all',
+			filterButtonsHidden: false,
+			isDesktop: true
 		}
+
+		this.updateSize = this.updateSize.bind(this);
+	}
+
+	componentDidMount = () => {
+    this.updateSize();
+    window.addEventListener("resize", this.updateSize);
+  }
+
+  componentWillUnmount = () => {
+    window.removeEventListener("resize", this.updateSize);
+  }
+
+  updateSize = () => {
+    this.setState({ isDesktop: window.innerWidth > 961 });
+  }
+
+	toggleFilterButtons = () => {
+		this.setState({ filterButtonsHidden: !this.state.filterButtonsHidden });
 	}
 
 	onFilterClick = (event) => {
@@ -28,6 +49,9 @@ class App extends Component {
 	}
 
 	render() {
+		const isDesktop = this.state.isDesktop;
+		const isHidden = this.state.filterButtonsHidden;
+
 		return (
 			<div>
 				<header>
@@ -37,7 +61,7 @@ class App extends Component {
 			    </div>
 			  </header>
 			  <Profile images={images} css_images={css_images} />
-				<Filters filterClick={this.onFilterClick} />
+				<Filters toggleButtons={this.toggleFilterButtons} filterClick={this.onFilterClick} isDesktop={isDesktop} isHidden={isHidden}/>
 				<ProjectList projects={projects} images={images} css_images={css_images} filter={this.state.filter} />
 				<footer className="clear">
 			    <div className="offset">

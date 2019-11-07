@@ -330,10 +330,6 @@ footer {
     display:none;
   }
 
-  #filter {
-    display: none;
-    }
-
   #filter-div button{
     float: none;
     width: 100%;
