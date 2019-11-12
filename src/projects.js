@@ -2,6 +2,20 @@ import React from 'react';
 
 export const projects = [
   {
+    id: 'this-portfolio',
+    classes: 'reactjs html-and-css javascript-and-jquery copy-editing graphics-and-layout tech',
+    thumblink: '#',
+    thumbsrc: 'portfolio-thumb.png',
+    thumbalt: 'This Very Portfolio Site',
+    thumbtitle: 'This Very Portfolio Site. App design, ReactJS, JavaScript, HTML/CSS.',
+    name: 'This Here Site',
+    namelink: "#",
+    lightbox: false,
+    descr: <span>Portfolio site that highlights my arts and technology projects and the skills I used to build them. Includes lightboxes, filtering capability and is mobile friendly. ReactJS, JavaScript, HTML/CSS. <a href='https://github.com/brittanydmiller/react-portfolio'>View code on GitHub.</a></span>,
+    techs: ['reactjs', 'js6', 'html', 'css'],
+    active: true
+  },
+  {
     id: 'zombify',
     classes: 'ruby-on-rails html-and-css javascript-and-jquery copy-editing graphics-and-layout games-and-puzzles tech coursework',
     thumblink: 'https://zomb.herokuapp.com/demo',
