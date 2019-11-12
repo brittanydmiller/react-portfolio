@@ -57,36 +57,6 @@ export const projects = [
     active: false
   },
   {
-    id: 'sets',
-    classes: 'sets-and-props arts hobby',
-    thumblink:'',
-    thumbsrc: 'foreigner-day.jpg',
-    thumbalt: 'The Foreigner set',
-    thumbtitle: '',
-    name: 'Set Dressing',
-    namelink: "",
-    lightbox: true,
-    descr: <span>Various sets I've helped construct or dress. <i>The Foreigner</i> and <i>Museum</i> at The College of Saint Benedict. A music video shoot for Spencer McGillicutty.</span>,
-    techs: [],
-    active: true,
-    gallery_images: [
-          { src: 'foreigner-day.jpg', title: 'The Foreigner at The College of Saint Benedict. Sourced all the kitsch, the fishing net, the paddles, the art, the spoon rack, coat rack, letter rack, etc. Helped make the fake fish trophies using a vacuform.' },
-          { src: "foreigner15.jpg", title: 'The Foreigner at The College of Saint Benedict. Sourced all the kitsch, the fishing net, the paddles, the art, the spoon rack, coat rack, letter rack, etc. Helped make the fake fish trophies using a vacuform.' },
-          { src: "foreigner13.jpg", title: 'The Foreigner at The College of Saint Benedict. Sourced all the kitsch, the fishing net, the paddles, the art, the spoon rack, coat rack, letter rack, etc. Helped make the fake fish trophies using a vacuform.' },
-          { src: "foreigner14.jpg", title: 'The Foreigner at The College of Saint Benedict. Sourced all the kitsch, the fishing net, the paddles, the art, the spoon rack, coat rack, letter rack, etc. Helped make the fake fish trophies using a vacuform.' },
-          { src: "foreigner16.jpg", title: "Set dressing on walls." },
-          { src: "foreigner12.jpg", title: "Dynamite made from wood, paper, string, paint." },
-          { src: "larkspur-set.jpg", title: "Larkspur Set (Paint Crew)" },
-          { src: "talk-to-me-set.jpg", title: "Talk to Me Like the Rain and Let Me Listen (Paint Crew)" },
-          { src: "music_vid2.jpg", title: "Prop Master for Music Video Shoot, Restaurant Scene. Sourced tables, chairs, table cloths, dishware, menus, checks." },
-          { src: "spencer-vid2.jpg", title: "Prop Master for Music Video Shoot, Restaurant Scene. Sourced tables, chairs, table cloths, dishware, menus, checks." },
-          { src: "menu2.jpg", title: "Prop Master for Music Video Shoot, Restaurant Scene. Created menu." },
-          { src: "check2.jpg", title: "Prop Master for Music Video Shoot, Restaurant Scene. Created check." },
-          { src: "check_front1.jpg", title: "Prop Master for Music Video Shoot, Restaurant Scene. Created check & end title." },
-          { src: "music_vid.jpg", title: "Prop Master for Music Video Shoot, Band Scene" }
-        ]
-  },
-  {
     id: 'zbrochure',
     classes: 'graphics-and-layout copy-editing professional',
     thumbsrc: 'ZBrochure_thumb.jpg',
@@ -184,7 +154,7 @@ export const projects = [
     // </div>"
            ,
     techs: [],
-    active: true,
+    active: false,
     gallery_images: [
           { src: 'leela11.jpg', title: 'Leela Cosplay Costume for CONvergence Exhibition' },
           { src: "leela3.jpg", title: "Moonboots painted with PlastiDip, with added foam buckles. Ray gun made from water pistol, hair stick, and moldable foam for the accents." },
@@ -208,7 +178,7 @@ export const projects = [
     lightbox: true,
     descr: <span>Various other costumes I've created: Wolverine, Bilbo, Weird Al Yankovic, Han Solo, Princess Leia, Disney's Robin Hood (the fox), Itchy & Scratchy, Daria, Harry Potter's Rita Skeeter and Molly Weasley, and others.</span>,
     techs: [],
-    active: true,
+    active: false,
     gallery_images: [
           { src: 'wolverine_threat.jpg', title: "Wolverine. Claws made from spikes, foam, and duct tape. Fake side burns with spirit gum. Dogtags made from painted cardboard."},
           { src: "bilbo2.jpg", title: "Bilbo Baggins. Hobbit ears, hairy feet. Thrifted clothing." },
@@ -264,11 +234,41 @@ export const projects = [
           { src: "gun2.jpg", title: "Making rifles for The Foreigner from wood and piping." },
           { src: "gun3.jpg", title: "Making rifles for The Foreigner from wood and piping." },
           { src: "gun4.jpg", title: "Making rifles for The Foreigner from wood and piping." },
-          { src: "foreigner-guns.jpg", title: "Prop rifles onstage in The Foreigner." },
+          // { src: "foreigner-guns.jpg", title: "Prop rifles onstage in The Foreigner." },
           { src: "bodycast1.jpg", title: "Taking casts of bodies to use as the Art in Museum." },
           { src: "bodycast2.jpg", title: "Taking casts of bodies to use as the Art in Museum." },
           { src: "bodycast3.jpg", title: "Taking casts of bodies to use as the Art in Museum." },
           { src: "bodycast4.jpg", title: "Taking casts of bodies to use as the Art in Museum." }
+        ]
+  },
+  {
+    id: 'sets',
+    classes: 'sets-and-props arts hobby',
+    thumblink:'',
+    thumbsrc: 'foreigner-day.jpg',
+    thumbalt: 'The Foreigner set',
+    thumbtitle: '',
+    name: 'Set Dressing',
+    namelink: "",
+    lightbox: true,
+    descr: <span>Various sets I've helped construct or dress. <i>The Foreigner</i> and <i>Museum</i> at The College of Saint Benedict. A music video shoot for Spencer McGillicutty.</span>,
+    techs: [],
+    active: true,
+    gallery_images: [
+          { src: 'foreigner-day.jpg', title: 'The Foreigner at The College of Saint Benedict. Sourced all the kitsch, the fishing net, the paddles, the art, the spoon rack, coat rack, letter rack, etc. Helped make the fake fish trophies using a vacuform.' },
+          { src: "foreigner15.jpg", title: 'The Foreigner at The College of Saint Benedict. Sourced all the kitsch, the fishing net, the paddles, the art, the spoon rack, coat rack, letter rack, etc. Helped make the fake fish trophies using a vacuform.' },
+          { src: "foreigner13.jpg", title: 'The Foreigner at The College of Saint Benedict. Sourced all the kitsch, the fishing net, the paddles, the art, the spoon rack, coat rack, letter rack, etc. Helped make the fake fish trophies using a vacuform.' },
+          { src: "foreigner14.jpg", title: 'The Foreigner at The College of Saint Benedict. Sourced all the kitsch, the fishing net, the paddles, the art, the spoon rack, coat rack, letter rack, etc. Helped make the fake fish trophies using a vacuform.' },
+          { src: "foreigner16.jpg", title: "Set dressing on walls." },
+          { src: "foreigner12.jpg", title: "Dynamite made from wood, paper, string, paint." },
+          { src: "larkspur-set.jpg", title: "Larkspur Set (Paint Crew)" },
+          { src: "talk-to-me-set.jpg", title: "Talk to Me Like the Rain and Let Me Listen (Paint Crew)" },
+          { src: "music_vid2.jpg", title: "Prop Master for Music Video Shoot, Restaurant Scene. Sourced tables, chairs, table cloths, dishware, menus, checks." },
+          { src: "spencer-vid2.jpg", title: "Prop Master for Music Video Shoot, Restaurant Scene. Sourced tables, chairs, table cloths, dishware, menus, checks." },
+          { src: "menu2.jpg", title: "Prop Master for Music Video Shoot, Restaurant Scene. Created menu." },
+          { src: "check2.jpg", title: "Prop Master for Music Video Shoot, Restaurant Scene. Created check." },
+          { src: "check_front1.jpg", title: "Prop Master for Music Video Shoot, Restaurant Scene. Created check & end title." },
+          { src: "music_vid.jpg", title: "Prop Master for Music Video Shoot, Band Scene" }
         ]
   },
   {
