@@ -57,7 +57,7 @@ class App extends Component {
 				<header>
 			    <div className="offset">
 			      <h1><a href="index.html">Brittany D. Miller</a></h1>
-			      <p className="clear" id="tagline">Sr. Software Engineer in San Francisco, CA.</p>
+			      <p className="clear" id="tagline">Full Stack Software Engineer in San Francisco, CA.</p>
 			    </div>
 			  </header>
 			  <Profile images={images} css_images={css_images} />
